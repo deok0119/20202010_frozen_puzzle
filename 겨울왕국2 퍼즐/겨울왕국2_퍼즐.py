@@ -108,7 +108,7 @@ def play_onMouseAction(x, y, action):
     quit.hide()
     global play_now
 
-    for i in range(10):
+    for i in range(101):
         idx=random.randrange(4)
         if idx==0 and location_y[location[15]]!=530:
             empty=location[15]
